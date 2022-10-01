@@ -133,7 +133,7 @@ class WebCrawler
         $this->setCaptcha(readline("Informe o captcha: "));
         return $this;
     }
-    
+
     private function setCaptcha($captcha)
     {
         $this->captcha = $captcha;
